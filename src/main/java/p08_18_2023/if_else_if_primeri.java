@@ -1,0 +1,1 @@
+package p08_18_2023;public class if_else_if_primeri {    public static void main(String[] args) {        int time= 22;        if (time==2)        {            System.out.println("Predavanja su zavrsena");}            else if (time<18) {            System.out.println(" Pocetak predavanja");}}}
