@@ -19,7 +19,7 @@ public class Zadatak1 {
         Scanner s= new Scanner(System.in);
         System.out.println("Unesite Vase ime");
         String ime= s.next();
-        System.out.println("Unesite Vase ime");
+        System.out.println("Unesite Vase prezime");
         String prezime= s.next();
         System.out.println("Unesite Vasu godinu rodjenja");
         int godinaRodjenja= s.nextInt();
