@@ -10,11 +10,11 @@ public class Zadratak9 {
     //1, 2, 4, 6, 7, 8, 9, 10 => (objasnjenje: 3 i 5 nisu odstampani)
 
 
-    Scanner s = new Scanner(System.in);
-        System.out.println("Unesite broj M  ");
-    int m= s.nextInt();
-
-        System.out.println("Unesite broj N  ");
-    int n=s.nextInt();
-    //nastaviti
+//    Scanner s = new Scanner(System.in);
+//        System.out.println("Unesite broj M  ");
+//    int m= s.nextInt();
+//
+//        System.out.println("Unesite broj N  ");
+//    int n=s.nextInt();
+//    //nastaviti
 }
