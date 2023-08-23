@@ -1,4 +1,4 @@
-package d21_08_2023;
+package d08_21_2023;
 
 import java.util.Scanner;
 
