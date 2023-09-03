@@ -1,6 +1,11 @@
 package p08_18_2023;
 
+import java.util.Scanner;
+
 public class Zadatak11 {
+    public static void main(String[] args) {
+
+
 
 //    (ZA VEZBANJE) Napisati program koji iscrtava timeline na youtube videu.
 //    Korisnik unosi duzinu videa u sekundama i trenutno vreme u videu, a
@@ -14,5 +19,21 @@ public class Zadatak11 {
 //            (Objasnjenje:Ako video ima 203s a mi smo na 20s,
 //    to znaci da je pogledano 9.85% videa, zaokruzicemo to na 9zvezdica ostatak do 100 su crtice)
 
+        Scanner s = new Scanner(System.in);
+        System.out.println(" Unesite duzinu videa ");
+        int duzinaVidea= s.nextInt();
 
-}
+        System.out.println(" Unesite trenutno vreme videa ");
+        int trenutnoVremeVidea= s.nextInt();
+int procenatPogledanogVidea= trenutnoVremeVidea*100/duzinaVidea;
+        for (int i = 0; i < 101; i++) {
+            if (i <procenatPogledanogVidea) {
+                System.out.print("*");
+            } else {
+                System.out.print("_");
+
+
+            }
+
+
+        }}}
