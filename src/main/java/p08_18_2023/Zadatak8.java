@@ -8,8 +8,11 @@ public class Zadatak8 {
 
         for (int i = 0; i< 101; i++){
 
-            if (i%2==0)
+            if (i%2==0 && i!=100)
             {System.out.print( i+ ", ");}
+
+            if (i==100) {
+                System.out.println( i);
         }
 
     }
@@ -19,4 +22,4 @@ public class Zadatak8 {
 
 
 
-}
+}}

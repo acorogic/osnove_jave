@@ -42,28 +42,26 @@ public class Zadatak5 {
         int brojacDesnihZagrada = 0;
 
 
-        while(terminate){
+        while (terminate) {
             System.out.print("Unos: ");
             String userInput = s.next();
 
-            if(userInput.equals("(")){
+            if (userInput.equals("(")) {
                 brojacLevihZagrada++;
-            }
-            else if (userInput.equals(")")){
+            } else if (userInput.equals(")")) {
                 brojacDesnihZagrada++;
-            }
-            else if (userInput.equals("=")){
+            } else if (userInput.equals("=")) {
                 terminate = false;
             }
         }
 
-        if(brojacLevihZagrada == 0 && brojacDesnihZagrada == 0){
+        if (brojacLevihZagrada == 0 && brojacDesnihZagrada == 0) {
             System.out.println("Nema zagrada u izrazu");
+        } else if (brojacLevihZagrada == brojacDesnihZagrada) {
+            System.out.println("Zagrade su uparene");
+        } else {
+            System.out.println("Zagrade nisu uparene");
         }
-        else if(brojacLevihZagrada == brojacDesnihZagrada){
-            System.out.println("Zagrade su uparene");}
-        else  {System.out.println("Zagrade nisu uparene");}
-
 
 
     }

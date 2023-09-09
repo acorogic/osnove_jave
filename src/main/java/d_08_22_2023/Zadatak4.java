@@ -37,11 +37,11 @@ public class Zadatak4 {
                 sumaJedinica++;
             }
 
-            if (sumaDvojki == 2 ) {
+            if (sumaDvojki == 2) {
                 terminate = true;
                 System.out.println("Kraj jer je uneto dve dvojke");
-            }
-            else if ( sumaJedinica == 3) {terminate = true;
+            } else if (sumaJedinica == 3) {
+                terminate = true;
                 System.out.println("Kraj jer je uneto tri jedinice");
 
             }
