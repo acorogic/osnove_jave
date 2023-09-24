@@ -5,30 +5,32 @@ import java.util.ArrayList;
 public class Korpa {
 
     private ArrayList<Ambalaza> ambalaze;
-    
+
 
     public Korpa() {
-       
+
         this.ambalaze = new ArrayList<>();
     }
 
 
-
-    public void dodajAmbalazu (Ambalaza novaAmbalaza){
+    public void dodajAmbalazu(Ambalaza novaAmbalaza) {
         this.ambalaze.add(novaAmbalaza);
     }
 
-   public void izbaciAmbalazu(String barkod){
-       for (int i = 0; i < ambalaze.size(); i++) {
+    public void izbaciAmbalazu(String barkod) {
+        for (int i = 0; i < ambalaze.size(); i++) {
 
 
-       if (barkod.equals(ambalaze.get(i).barkod))
-       {ambalaze.remove(i);
-       }
+            if (barkod.equals(ambalaze.get(i).barkod)) {
+                ambalaze.remove(i);
+            }
 
-   }
+        }
+    }
 
-
+    public void stampajKarticu(SuperKartica kartica)
+    {
+        //System.out.println(kartica.);
 
 }
     private ArrayList<Double> cenaSaPopustom(double popust){
