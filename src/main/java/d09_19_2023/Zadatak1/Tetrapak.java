@@ -14,7 +14,7 @@ public class Tetrapak extends Ambalaza{
     private boolean recycle;
  private int osnovnaCena;
 
-    }
+
 
     public Tetrapak(String barkod, String artikal, int netoTezina, int brutoTezina, boolean recycle, int osnovnaCena) {
         super(barkod, artikal, netoTezina, brutoTezina);

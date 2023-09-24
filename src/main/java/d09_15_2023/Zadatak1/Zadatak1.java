@@ -16,7 +16,7 @@ public class Zadatak1 {
             String prezime = s.next();
             System.out.print("Unesite jmbg  trenera ");
             String jmbg = s.next();
-            System.out.print("Unesite godinu rodjenja  trenera "));
+            System.out.print("Unesite godinu rodjenja  trenera ");
             int godina = s.nextInt();
             System.out.print("Unesite godine iskustva  trenera ");
             int iskustvo = s.nextInt();
@@ -37,7 +37,7 @@ public class Zadatak1 {
             System.out.print("Unesite jmbg igraca ");
             String jmbg = s.next();
 
-            System.out.print("Unesite godinu rodjenja igraca "));
+            System.out.print("Unesite godinu rodjenja igraca ");
             int godina = s.nextInt();
 
             System.out.print("Unesite broj na dresu  igraca ");

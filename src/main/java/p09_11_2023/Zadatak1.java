@@ -10,6 +10,7 @@ public class Zadatak1 {
     student1.setBrojIndexa(123);
     student1.setBudzet(true);
 
+
     student1.stampa();
 
 }}

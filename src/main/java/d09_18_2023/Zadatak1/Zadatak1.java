@@ -9,7 +9,7 @@ public class Zadatak1 {
         smijesniVideo.setVideoQuality("144");
         smijesniVideo.stampaj();
 
-        Control time= new TimeControl(smijesniVideo, false);
+        Control time= new TimeControl(smijesniVideo, true);
 
         time.izvrsiAkciju(smijesniVideo);
 
